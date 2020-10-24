@@ -77,69 +77,12 @@ body {
     justify-content: center;
 }
 
-.bgstyle {
-    background: linear-gradient(136deg, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1);
-    background-size: 1200% 1200%;
-    -webkit-animation: AnimationName 70s ease infinite;
-    -moz-animation: AnimationName 70s ease infinite;
-    -o-animation: AnimationName 70s ease infinite;
-    animation: AnimationName 70s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 7%;
-    }
-
-    50% {
-        background-position: 100% 94%;
-    }
-
-    100% {
-        background-position: 0% 7%;
-    }
-}
-
-@-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 7%;
-    }
-
-    50% {
-        background-position: 100% 94%;
-    }
-
-    100% {
-        background-position: 0% 7%;
-    }
-}
-
-@-o-keyframes AnimationName {
-    0% {
-        background-position: 0% 7%;
-    }
-
-    50% {
-        background-position: 100% 94%;
-    }
-
-    100% {
-        background-position: 0% 7%;
-    }
-}
-
-@keyframes AnimationName {
-    0% {
-        background-position: 0% 7%;
-    }
-
-    50% {
-        background-position: 100% 94%;
-    }
-
-    100% {
-        background-position: 0% 7%;
-    }
+.gradient {
+  background-image:
+    linear-gradient(
+      to top left,
+      #4484ce, #1ad7c0
+    );
 }
 
 .text-light {
