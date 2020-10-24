@@ -12,6 +12,13 @@ body {
     font-size: var(--base-font-size);
 }
 
+/* <= 768px */
+@media (max-width: 48em) {
+    body {
+        font-size: 80%;
+    }
+}
+
 /* 1024px */
 @media (min-width: 64em) {
     body {
@@ -42,13 +49,25 @@ body {
 
 .header1 {
     font-weight: 300;
-    font-size: 3em;
+    font-size: 4.1em;
     margin-bottom: 0.2em;
 }
 
 .header2 {
-    font-size: 1.17em;
     font-weight: 300;
+}
+
+/* <= 768px */
+@media (max-width: 48em) {
+    .header2 {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 48em) {
+    .header2 {
+        font-size: 20px;
+    }
 }
 
 .parent {
@@ -127,6 +146,24 @@ body {
     color: #f8f9fa !important
 }
 
+.icon {
+    height: auto;
+    width: auto;
+}
+
+/* <= 768px */
+@media (max-width: 48em) {
+    .icon {
+        max-height: 40px;
+    }
+}
+
+@media (min-width: 48em) {
+    .icon {
+        max-height: 48px;
+    }
+}
+
 .icon-link {
     color: white;
     padding-left: 5px;
@@ -153,6 +190,21 @@ body {
     transition: .5s ease;
     padding-left: 5px;
     padding-right: 5px;
+    height: auto;
+    width: auto;
+}
+
+/* <= 768px */
+@media (max-width: 48em) {
+    .icon-overlay {
+        max-height: 40px;
+    }
+}
+
+@media (min-width: 48em) {
+    .icon-overlay {
+        max-height: 48px;
+    }
 }
 
 .icon-link:hover .icon-overlay {
