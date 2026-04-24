@@ -25,9 +25,16 @@
   --color-blue-800: #1e40af;
   --color-blue-900: #1e3a5f;
 
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-200: #a7f3d0;
   --color-emerald-400: #34d399;
   --color-emerald-500: #10b981;
   --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+
+  --color-red-50: #fef2f2;
+  --color-red-200: #fecaca;
+  --color-red-700: #b91c1c;
 }
 
 @layer base {
@@ -54,3 +61,9 @@
 .stagger > .fade-in:nth-child(2) { transition-delay: 120ms; }
 .stagger > .fade-in:nth-child(3) { transition-delay: 240ms; }
 .stagger > .fade-in:nth-child(4) { transition-delay: 360ms; }
+
+/* Disabled button */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
